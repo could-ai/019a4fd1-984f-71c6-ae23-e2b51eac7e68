@@ -1,5 +1,5 @@
 name: couldai_user_app
-description: "A new Flutter project."
+description: "Binomo Prediction Signal App"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,6 +34,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
+  # Chart library for displaying candlestick charts
+  fl_chart: ^0.68.0
+
+  # For HTTP requests to fetch market data
+  http: ^1.2.1
+
+  # For timer functionality
+  async: ^2.11.0
 
 dev_dependencies:
   flutter_test:
